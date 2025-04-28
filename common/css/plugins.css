@@ -1,0 +1,11 @@
+
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("plugins/bootstrap.min.css");
+
+/* == swiper.min font == */
+@import url("plugins/swiper.min.css");
