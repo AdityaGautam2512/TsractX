@@ -209,47 +209,45 @@ you name it, we crush it. Ready to dominate? Let's Talk.">
                                         <h6 class="sub-head">Send a <span class="fw-200">message</span></h6>
                                     </div>
 
+<!---------------------------FORM------------------------------------->
 
-
-    <form id="contact-form" name="contact" method="POST" data-netlify="true">
-
-    <input type="hidden" name="form-name" value="contact"> <!-- Required for Netlify -->
-
-    <div class="messages"></div>
-
-    <div class="controls row">
-
-        <div class="col-lg-6">
-            <div class="form-group mb-30">
-                <input id="form_name" type="text" name="name" placeholder="Name" required="required">
-            </div>
-        </div>
-
-        <div class="col-lg-6">
-            <div class="form-group mb-30">
-                <input id="form_email" type="email" name="email" placeholder="Email" required="required">
-            </div>
-        </div>
-
-        <div class="col-12">
-            <div class="form-group">
-                <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
-            </div>
-
-            <div class="mt-30">
-                <button type="submit" class="butn butn-md butn-bord butn-rounded">
-                    <div class="d-flex align-items-center">
-                        <span>Let's Talk</span>
-                        <span class="icon ml-10">
-                            <img src="arrow-right-top-svgrepo-com.svg" alt="">
-                        </span>
-                    </div>
-                </button>
-            </div>
-        </div>
-
-    </div>
-</form>
+                                    <form id="contact-form" action="https://formspree.io/f/mkgronpd" method="POST">
+                                        <div class="messages"></div>
+                                    
+                                        <div class="controls row">
+                                    
+                                            <div class="col-lg-6">
+                                                <div class="form-group mb-30">
+                                                    <input id="form_name" type="text" name="name" placeholder="Name" required>
+                                                </div>
+                                            </div>
+                                    
+                                            <div class="col-lg-6">
+                                                <div class="form-group mb-30">
+                                                    <input id="form_email" type="email" name="email" placeholder="Email" required>
+                                                </div>
+                                            </div>
+                                    
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <textarea id="form_message" name="message" placeholder="Message" rows="4" required></textarea>
+                                                </div>
+                                    
+                                                <div class="mt-30">
+                                                    <button type="submit" class="butn butn-md butn-bord butn-rounded">
+                                                        <div class="d-flex align-items-center">
+                                                            <span>Let's Talk</span>
+                                                            <span class="icon ml-10">
+                                                                <img src="arrow-right-top-svgrepo-com.svg" alt="">
+                                                            </span>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                    
+                                        </div>
+                                    </form>
+                                    
 
                                 </div>
                             </div>
