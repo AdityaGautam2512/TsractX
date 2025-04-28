@@ -84,7 +84,7 @@ document.getElementById('contact-form').addEventListener('submit', async functio
     if (response.ok) {
         alert('Thank you! Your message has been sent.');
         form.reset();
-        window.location.href = 'www.tsractx.com/index.html';
+        window.location.href = '/';
     } else {
         alert('Oops! There was a problem submitting your form.');
     }
