@@ -34,10 +34,11 @@
     padding: 7px 8px;
      }
      .logo img {
-      /* width: 137px;  Adjust width */
-      height: 40px;  /* Adjust height */
-      object-fit: contain; /* Ensures the whole image is visible */
-    }
+  display: block;
+  width: auto;       /* natural width based on your height */
+  height: 40px;      /* keep your desired height */
+  object-fit: contain;
+}
   .navbar .navbar-nav {
     padding: 2px 5px;
     border: 1px solid rgba(255, 255, 255, 0.3);
