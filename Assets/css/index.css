@@ -22,6 +22,10 @@ border-color: #010105;
   justify-content: space-between;
 
 }
+
+.navbar > * {
+  flex: 0 0 auto;           /* don’t let any child grow or shrink unexpectedly */
+}
   .navbar.nav-scroll {
     padding: 0;
     position: fixed;
