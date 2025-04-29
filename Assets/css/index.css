@@ -23,9 +23,6 @@ border-color: #010105;
 
 }
 
-.navbar > * {
-  flex: 0 0 auto;           /* don’t let any child grow or shrink unexpectedly */
-}
   .navbar.nav-scroll {
     padding: 0;
     position: fixed;
