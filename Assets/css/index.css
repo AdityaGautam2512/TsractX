@@ -15,7 +15,13 @@ border-color: #010105;
   margin: 0;
   width: 100%;
   background: transparent;
-  z-index: 9999999; }
+  z-index: 9999999;
+  display: -webkit-flex; /* older iOS Safari */
+  display: flex;
+  flex-wrap: nowrap;        /* prevent any wrapping */
+  justify-content: space-between;
+
+}
   .navbar.nav-scroll {
     padding: 0;
     position: fixed;
